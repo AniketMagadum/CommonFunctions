@@ -8,3 +8,8 @@ function isAlphaNumeric(inputString){
   }
   
 }
+
+function onlyAlphabetsAndNumber(value) {
+    var regex = /^[a-z0-9]+$/i;
+    return regex.test(value) ? true : false;
+}
